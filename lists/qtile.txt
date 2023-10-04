@@ -1,0 +1,25 @@
+QTILE
+Scroll layouts
+M+T
+Open space #<N>
+M+<N>
+Move window to space #<N>
+M+S+<N>
+Kill window
+M+q
+Toggle floating
+M+S+LMB
+Move floating window
+M+LMB
+Resize floating window
+M+RMB
+Reload config
+M+C+R
+Quit QTile
+M+C+Q
+Move focus left/down/up/right
+M+hjkl
+Move window W/S/N/E
+M+S+hjkl
+Grow window W/S/N/E
+M+C+hjkl

@@ -1,0 +1,22 @@
+VSCODE
+Open terminal
+C+S+`
+Open command palette
+C+S+p
+Cycle through tabs
+C+T
+Go to tab #<N>
+A+<N>
+Find
+C+f
+Replace
+C+h
+-
+Select line
+C+l
+Delete line
+C+S+k
+Expand selection
+S+A+→
+Go to definition
+F12

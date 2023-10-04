@@ -1,0 +1,74 @@
+VIM
+# Navigation
+Left/down/up/right
+hjkl
+Prev/next word w/ any separators
+b/w
+Prev/next word w/ only spaces
+B/W
+Jump to EOW (w/ only spaces)
+e/E
+Jump to BOL/first non-ws char/EOL
+0/^/$
+Jump between matching brackets
+%
+Jump to a char
+t[char]
+Jump to after a char
+f[char]
+Prev/next paragraph
+{/}
+To the top/bottom
+gg/G
+# Clipboard
+Delete selected
+d
+Delete to the EOL
+D
+Delete the whole line
+dd
+-
+Change selected
+c
+Change to the EOL
+C
+Change the whole line
+cc
+Change inner parenthesis
+ci(
+Change inner quot. marks
+ci"
+-
+Copy selected
+y
+Yoink (copy) line
+yy
+Yank inner parenthesis
+yi(
+Yank inner braces
+yi[
+Paste before/after cursor
+P/p
+-
+Replace char
+r
+Undo
+u
+Redo
+C+r
+# Insert mode (IM)
+Enter IM before/after cursor
+i/a
+Enter IM in the beginning/end of the line
+I/A
+Add empty line below/above and open IM
+o/O
+# Commands
+Write
+:w
+Write and quit
+:wq
+Quit
+:q
+Quit w/o saving
+:q!

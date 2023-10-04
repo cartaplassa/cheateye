@@ -1,0 +1,29 @@
+FIREFOX
+New tab
+C+t
+New window
+C+n
+Close tab
+C+w
+Back/forward
+C+[/]
+Zoom in/out/reset
+C+ +/-/0
+-
+Prev. tab
+C+PU
+Next tab
+C+PD
+Cycle through tabs
+C+T
+Open tab #<N>
+A+<N>
+-
+Move tab left
+C+S+PU
+Move tab right
+C+S+PD
+Move tab to start
+C+S+H
+Move tab to end
+C+S+E

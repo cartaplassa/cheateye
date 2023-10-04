@@ -1,0 +1,27 @@
+THUNAR
+New/Kill window
+C+n/q
+New/Kill tab
+C+t/w
+Prev/Next tab
+C+PU/PD
+Back/Forward
+A+←/→
+Go to home
+A+H
+Open location
+C+l
+-
+Icon/List/Compact view
+C+1/2/3
+Shortcuts/Tree view
+C+b/e
+Toggle hidden
+C+h
+Split view
+F3
+Zoom in/out/reset
+C+ +/-/0
+-
+Copy file location
+C+S+c
