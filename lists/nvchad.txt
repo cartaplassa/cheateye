@@ -1,0 +1,61 @@
+NVCHAD
+
+# Commons
+Dashboard
+L+bi
+Cheatsheet
+L+ch
+Themes
+L+ht
+Browsher
+L+xb
+Lynx
+L+xl
+Git commits
+L+gc
+
+
+# Navigation
+Toggle conceal
+L+bf
+New buffer
+L+bn
+Close buffer
+L+bd
+Close buffer
+L+bk
+Window left/down/up/right
+C+h/j/k/l
+Move down/up
+j/k
+Quit
+L+qq
+Force quit
+L+fq
+Toggle relative number
+L+rn
+LSP rename
+L+sa
+
+# Insert mode
+Move left/down/up/right
+C+h/j/k/l
+Move to BOL/EOL
+C+b/e
+
+# Plugins
+Toggle Nvimtree
+L+ee
+Toggle Nvimtree
+L+et
+Find file in Nvimtree
+L+ef
+Refresh Nvimtree
+L+er
+
+Toggle floating terminal
+A+i
+Toggle vertical terminal
+A+v
+Toggle horizontal terminal
+A+h

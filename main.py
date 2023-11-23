@@ -6,9 +6,11 @@ from draw_box import Box
 from fill_viewport import fill_viewport
 from random import random
 
+INDEXERROR_PROMPT = "Error: Insufficient arguments."
+KEYERROR_PROMPT = "Error: Wrong argument."
+WRONG_ARGS_PROMPT = '"main.py -f N" (--fraction) - divide space to N columns\n' \
+'"main.py -w N" (--width) - divide space to equal N characters wide columns'
 
-WRONG_ARGS = 'Execute "main.py -f N", to divide space to N columns\n' \
-'Execute "main.py -w N", to divide space to N-wide columns'
 
 def main(width):
     items = []
@@ -39,17 +41,25 @@ def random_boxes(amount, width):
 if __name__ == "__main__":
     args = sys.argv
     terminal_size = shutil.get_terminal_size().columns
-    print(args, terminal_size)
-    try: 
-        if args[1] == '-f':
+    # print(args, terminal_size)
+    try:
+        if not args[1] or not args[2]:
+            raise IndexError
+        elif args[1] in ("-f", "--fraction"):
             columns = int(args[2])
             width = terminal_size // columns
-        elif args[1] == '-w':
+        elif args[1] in ("-w", "--width"):
             width = int(args[2])
             columns = terminal_size // width
         else:
-            print(WRONG_ARGS)
+            raise KeyError
     except IndexError:
-        print(WRONG_ARGS)
-    boxes = main(width)
-    fill_viewport(boxes, columns, width)
+        print(INDEXERROR_PROMPT)
+        print(WRONG_ARGS_PROMPT)
+    except KeyError:
+        print(KEYERROR_PROMPT)
+        print(WRONG_ARGS_PROMPT)
+    else:
+        boxes = main(width)
+        fill_viewport(boxes, columns, width)
+

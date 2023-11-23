@@ -34,6 +34,11 @@ clear && cd ~/Downloads/cheateye && source .venv/bin/activate && python main.py 
 
 and put it in autostart.sh, just play around with values to find those that work best, they depend heavily on terminal configuration.
 
+Or even better, make an alias in `.bashrc`:
+```
+alias cheateye='f(){ clear && cd ~/path/to/cheateye/ && source .venv/bin/activate && python main.py "$1" "$2" && deactivate && cd; unset -f f; }; f'
+```
+
 Also, `lists` prolly won't work. They might, but they're supposed to be individualized, so take time to write your own.
 
 ## Result

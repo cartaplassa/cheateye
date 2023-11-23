@@ -56,12 +56,12 @@ Undo
 u
 Redo
 C+r
-# Insert mode (IM)
-Enter IM before/after cursor
+# Insert mode
+Enter before/after cursor
 i/a
-Enter IM in the beginning/end of the line
+Enter in the beginning/end of the line
 I/A
-Add empty line below/above and open IM
+Add empty line below/above, go IM
 o/O
 # Commands
 Write

@@ -1,0 +1,30 @@
+QUTEBROWSER
+Move around
+h/j/k/l
+Zoom in/out
++/-
+Enter address + go
+o
+Open a new tab + go
+S+o
+Edit current address
+go
+# If a query isn't a url, it's passed to the default SE
+Next/prev. tab
+S+j/k
+Go to tab #<N>
+A+<N>
+Go back/forward in history
+S+h/l
+Hints
+f
+Command line
+:
+Search in page
+/
+Prev./next result in search
+n/N
+Quit
+:q
+Quit & save current opened tabs
+:wq
